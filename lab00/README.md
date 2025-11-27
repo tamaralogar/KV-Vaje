@@ -161,3 +161,41 @@ du -ah ~ | sort -rh | head -n 5
 1. Reddit, SSH into Codespace without GitHub CLI, https://www.reddit.com/r/github/comments/15pvnj3/comment/kd23ess/
 
 2. OpenAI, (2025), *ChatGPT* (Aug 2025) [Large language model], https://chat.openai.com/
+
+
+tamaral@codespaces-d623b7:~$ touch vaja00.txt
+tamaral@codespaces-d623b7:~$ history >> vaja00.txt
+tamaral@codespaces-d623b7:~$ cat vaja00.txt
+    1  whoami
+    2  pwd
+    3  cd /home/tamaral/
+    4  pwd
+    5  mkdir linux-vaja
+    6  cd /home/tamaral/linux-vaja
+    7  pwd
+    8  touch opis.txt
+    9  echo "Tamara" >> opis.txt
+   10  cat opis.txt
+   11  mkdir testni
+   12  mv opis.txt /home/tamaral/linux-vaja/testni
+   13  ls
+   14  ls -l
+   15  mv opis.txt moj_profil.txt
+   16  cd /home/tamaral/linux-vaja/testni/
+   17  ls
+   18  mv opis.txt moj_profil.txt
+   19  ls
+   20  cat moj_profil.txt
+   21  cp moj_profil.txt ~/
+   22  ls -lh
+   23  chmod 400 moj_profil.txt
+   24  ls -lh
+   25  cd /home/tamaral/
+   26  whoami
+   27  du -sh
+   28  du -sh ~
+   29  df -h
+   30  du .ah ~ | sort -rh | head -n 5
+   31  du -ah ~ | sort -rh | head -n 5
+   32  touch vaja00.txt
+   33  history >> vaja00.txt
