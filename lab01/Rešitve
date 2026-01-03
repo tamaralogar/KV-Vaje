@@ -1,0 +1,157 @@
+─(kali㉿kali)-[~]
+└─$ whoami    
+kali
+                                                                                                
+┌──(kali㉿kali)-[~]
+└─$ hostnamectl
+ Static hostname: kali
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 686fa41363f049e9a84be345a7078e04
+         Boot ID: afb0108af3394f74975a0460153f2f0d
+    AF_VSOCK CID: 60170969
+  Virtualization: vmware
+Operating System: Kali GNU/Linux Rolling          
+          Kernel: Linux 6.12.38+kali-amd64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform
+Firmware Version: 6.00
+   Firmware Date: Mon 2025-03-24
+    Firmware Age: 9month 1w 4d
+                                                                                                
+┌──(kali㉿kali)-[~]
+└─$ uname -a
+Linux kali 6.12.38+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12) x86_64 GNU/Linux
+                                                                                                
+┌──(kali㉿kali)-[~]
+└─$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            916M     0  916M   0% /dev
+tmpfs           197M  1.3M  196M   1% /run
+/dev/sda1        79G   16G   60G  21% /
+tmpfs           983M  4.0K  983M   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           983M  8.0K  983M   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           197M  124K  197M   1% /run/user/1000
+                                                                                                
+┌──(kali㉿kali)-[~]
+└─$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:96:22:d9 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.109.128/24 brd 192.168.109.255 scope global dynamic noprefixroute eth0
+       valid_lft 1431sec preferred_lft 1431sec
+    inet6 fe80::6560:167e:4a83:8869/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+                                                                                                
+┌──(kali㉿kali)-[~]
+└─$ wget url
+Prepended http:// to 'url'
+--2026-01-03 12:45:59--  http://url/
+Resolving url (url)... failed: Name or service not known.
+wget: unable to resolve host address ‘url’
+                                                                                                
+┌──(kali㉿kali)-[~]
+└─$ sudo apt install htop   
+Completing package
+0ad                                                                        
+0ad-data                                                                   
+0ad-data-common                                                            
+0install                                                                   
+0install-core                                                              
+0trace                                                                     
+0trace-dbgsym                                                              
+0xffff                                                                     
+1oom                                                                       
+2ping                                                                      
+2vcard                                                                     
+3cpio                                                                      
+3d-ascii-viewer                                                            
+3depict                                                                    
+4g8                                                                        
+4pane                                                                      
+4ti2                                                                       
+4ti2-doc                                                                   
+6tunnel                                                                    
+7kaa                                                                       
+7kaa-data                                                                  
+7zip                                                                       
+7zip-rar                                                                   
+7zip-standalone                                                            
+9base                                                                      
+9menu                                                                      
+9mount                                                                     
+9wm                                                                        
+64tass                                                                     
+81voltd                                                                    
+2048                                                                       
+2048-qt                                                                    
+3270-common                                                                
+a2boot                                                                     
+a2d                                                                        
+a2d-doc                                                                    
+a2jmidid                                                                   
+a2ps                                                                       
+a7xpg                                                                      
+a7xpg-data                                                                 
+a56                                                                        
+aa3d                                                                       
+aac-enc                                                                    
+aaphoto                                                                    
+aapt                                                                       
+aardvark-dns                                                               
+aasvg                                                                      
+abacas                                                                     
+abacas-examples                                                            
+abbtr                                                                      
+abcde                                                                      
+abcl                                                                       
+abcm2ps                                                                    
+abcmidi                                                                    
+abe                                                                        
+abe-data                                                                   
+abgate                                                                     
+abicheck                                                                   
+abi-compliance-checker                                                     
+abi-dumper                                                                 
+abigail-doc                                                                
+abigail-tools                                                              
+abi-monitor                                                                
+abisip-find                                                                
+abi-tracker                                                                
+abiword                                                                    
+abiword-common                                                             
+abiword-plugin-grammar                                                     
+ableton-link-dev                                                           
+┌──(kali㉿kali)-[~]
+└─$ sudo apt install htop
+[sudo] password for kali: 
+htop is already the newest version (3.4.1-5).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 1223
+
+Kali Linux uporabljamo za: penetracijsko testiranje, varnostne revizije, digitalna forenzika in reverse engineering. 
+Kali Linux ima vnaprej nameščena orodja, prilagojeno jedro, varnostni način in standardizacijo. 
+Najbolj zanimivo mi je bilo, da ne znam več uporabljati svoje tipkovnice, ker mi jo spremeni na angleško, pa še ctrl c pa ctrl v ne dela.
+
+Nmap je bil zanimiv: 
+─(kali㉿kali)-[~]
+└─$ nmap -O 192.168.109.128
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-03 13:10 EST
+Nmap scan report for 192.168.109.128
+Host is up (0.000044s latency).
+All 1000 scanned ports on 192.168.109.128 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.61 seconds
