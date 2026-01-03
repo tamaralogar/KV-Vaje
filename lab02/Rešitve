@@ -1,0 +1,69 @@
+Google: slike in profili
+Javni profili: Na drugi strani je nekaj mojih profilov
+HaveIBeenPwned: 1 Data Breach
+OSINTLeak:mail 0, username 9 DB leaks
+PimEyes: free scan, bad quality: 33 slik, ne razkrije mi vseh, ker nimam placljive verzije -> tri sliki mislim da nisem js
+
+Podatki, ki sem jih našla predstavljajo srednje veliko tveganje. 
+Črni scenariji: s slikami bi lahko prišlo do kraje identitete s pomočjo ai in deepfake/ do izsiljevanja/ do catfishinga.
+Mojo osebno varnost in zasebnost bi ocenila da je zaradi slik slaba.
+
+Google dorking: filetype:env intext:DB_PASSWORD:
+
+## Postgres
+DB_CLIENT="pg"
+DB_HOST="localhost"
+DB_PORT=5100
+DB_DATABASE="directus"
+DB_USER="postgres"
+DB_PASSWORD="secret"
+
+## CockroachDB
+# DB_CLIENT="cockroachdb"
+# DB_HOST="localhost"
+# DB_PORT=5113
+# DB_DATABASE="directus"
+# DB_USER="root"
+# DB_PASSWORD=""
+
+## MySQL 8
+# DB_CLIENT="mysql"
+# DB_HOST="localhost"
+# DB_PORT=5101
+# DB_DATABASE="directus"
+# DB_USER="root"
+# DB_PASSWORD="secret"
+
+## MariaDB
+# DB_CLIENT="mysql"
+# DB_HOST="localhost"
+# DB_PORT=5102
+# DB_DATABASE="directus"
+# DB_USER="root"
+# DB_PASSWORD="secret"
+
+## MS SQL
+# DB_CLIENT="mssql"
+# DB_HOST="localhost"
+# DB_PORT=5103
+# DB_DATABASE="directus"
+# DB_USER="sa"
+# DB_PASSWORD="Test@123"
+
+## OracleDB
+# DB_CLIENT="oracledb"
+# DB_CONNECT_STRING="localhost:5104/XE"
+# DB_USER="secretsysuser"
+# DB_PASSWORD="secretpassword"
+
+## SQLite Example
+# DB_CLIENT="sqlite3"
+# DB_FILENAME="./data.db"
+
+## MySQL 5.7
+# DB_CLIENT="mysql"
+# DB_HOST="localhost"
+# DB_PORT=5102
+# DB_DATABASE="directus"
+# DB_USER="root"
+# DB_PASSWORD="secret"
