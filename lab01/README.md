@@ -84,9 +84,52 @@ cd /
 ls -la
 ```
 
+HTOP je enostaven paket za diagnostiko sistema. Lahko preizkusite tudi paket btop. V paketih je razvidna poraba sistemskih virov in procesov, kar nam pomaga identificirati sumljive procese, ki se morebiti izvajajo v ozadju. 
+
+```bash
+htop
+sudo apt install htop		# namestitev htop
+htop
+```
+
+Traceroute je osnovno orodje za preverjanje povezljivosti omrežja. S pomočjo orodja izpišemo pot po kateri potujejo paketi skozi omrežje in identificiramo morebitne težave v omrežnih vozliščih. 
+
+```bash
+htop
+sudo apt install traceroute	-y	# namestitev traceroute
+traceroute google.com
+```
+
+Za grafični prikaz upload/download omrežnega prometa na omrežju lahko uporabimo paket nload.
+
+```bash
+sudo apt install nload -y
+nload
+```
+
+Za enostavno forenziko lahko uporabljamo paket strings s pomočjo katerega lahko iz binarnih datotek preberemo nize ASCII ali unicode znake, ki so berljivi. Tehnika se uporablja pri obratnem inženiringu in digitalni forenziki. 
+
+```bash
+strings /bin/ls | head
+```
+
+
 #### 3️⃣ Uporaba orodij v Kali Linux
 
 V nadaljevanju si bomo pogledali in predstavili nekaj osnovnih orodij, ki so na voljo znotraj Kali Linux. 
+
+Najprej bomo preverili hitrost prenosa podatkov s pomočjo paketa speedtest-cli.
+
+```bash
+sudo apt install speedtest-cli -y
+speedtest-cli --secure
+```
+
+Velikokrat moramo za potrebe forenzične analize ali diagnostike spremljati promet na omrežju, to lahko naredimo tudi s pomočjo paketa tcpdump.
+
+```bash
+sudo tcpdump -c 10
+```
 
 NMAP in ZenMAP sta uporabni orodji za fazo skeniranja v Kali Linuxu. NMAP in ZenMAP sta praktično isti orodji, vendar NMAP uporablja ukazno vrstico, medtem ko ima ZenMAP grafični uporabniški vmesnik.
 
@@ -97,7 +140,7 @@ nmap -p 1-65535 -T4  192.168.1.1	# skeniranje po odprtih vratih TCP in UDP
 nmap -sS -T4 192.168.1.11			# stealth-scan z uporabo SYN/ACK.
 ```
 
-Searchsplit je iskalnik po zaznanih ranljivostih
+Searchsploit je iskalnik po zaznanih ranljivostih
 
 ```bash
 searchsploit wordpress ftp 			# iskanje po zaznanih ranljivostih v Wordpress FTP razširitvah
