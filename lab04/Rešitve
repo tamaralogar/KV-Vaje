@@ -1,0 +1,36 @@
+Poskusila sem s svojo sliko:
+https://pic2map.com: No EXIF data was found in the files
+https://exif.tools/: File Metadata nič posebnega
+
+Slika iz githuba:
+https://pic2map.com: 
+The photo was shot using a HMD Global Nokia 8.3 5G camera 
+at an aperture of f/2.2, 1/1848 sec. shutter speed and ISO 100. Flash did not fire.
+According to the image metadata, the photo was shot on Sunday 14th of August 2022. The local time was 14:12:31.
+The coordinates and location where the photo was taken is stored in the EXIF. According to GPS data analysis, 
+the photo was taken at coordinates 60° 8' 48.14" N , 24° 54' 24.38" E. The elevation was 0 meters.
+The camera was pointing Northeast at 56.00 degrees. Using reverse geocoding, the address associated with the coordinates 
+is guessed as 3, Neptunuksenkatu, Saukonpaasi, Jätkäsaari, Länsisatama, Southern major district, Helsinki,
+Helsinki sub-region, Uusimaa, Mainland Finland, 00220, Finland. 
+Zanimivi podatki: PHOTOS NEAR THIS LOCATION
+https://exif.tools/: 
+Camera Model Name	Nokia 8.3 5G
+Date/Time Original	2022:08:14 14:12:31
+GPS Img Direction Ref	Magnetic North
+GPS Latitude Ref	North
+GPS Img Direction	56
+GPS Longitude Ref	East
+GPS Time Stamp	11:12:32
+Date/Time Original	2022:08:14 14:12:31+03:00
+GPS Date/Time	2022:08:14 11:12:32Z
+GPS Latitude	60º 8' 48.14" N
+GPS Longitude	24º 54' 24.38" E
+Focal Length	2.8 mm
+GPS Position	60º 8' 48.14" N, 24º 54' 24.38" E
+
+Presenetila me je natančnost podatkov. Osebi, ki redno objavlja slike na internetu bi priporočila, da
+objavlja z časovnim zamikom in čisti metapodatke.
+
+EXIF podatke je dobro odstraniti pred objavo na blogih, spletnih prodajnih mestih ali pošiljanju slik.
+Pred zlorabo se lahko zaščitimo, tako da izbrišemo EXIF podatke in uporabimo zameglitev ozadja. 
+Nimam v spominu, da bi objavila kakšno sliko.
