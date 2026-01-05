@@ -1,0 +1,52 @@
+─$ cat rockyou.txt | grep geslo1 
+geslo123456
+geslo12345
+geslo12
+geslo1
+fafygeslo1
+
+cat geslo.txt
+Password1
+qwerty123
+My$Strong&Pass2024
+letmein
+Summer2024
+geslo123
+Geslo123
+Geslo123.
+GESLO123.
+M0j3g3sl0j3m0cn0.
+
+cat hashes.txt
+user1:2ac9cb7dc02b3c0083eb70898e549b63
+user2:3fc0a7acf087f549ac2b266baf94b8b1
+user3:d09b2f134b49212fb6966b5d337047e5
+user4:0d107d09f5bbe40cade3de5c71e9e9b7
+user5:e90664c0af74160644d29e4d6147969b
+user6:211340d1aab430caaadba78431c3e810
+user7:76219611fa53635063c56a9ecc0cddf4
+user8:974061ccbdba2326adca4fa5d9f81f4c
+user9:37e2831bcb436b23d772b028f7c39fca
+user10:c58651dc5726eca8546599a5b8dbbfb7
+
+Najdena gesla:
+john --show --format=raw-md5 hashes.txt                
+user1:Password1
+user2:qwerty123
+user4:letmein
+
+3 password hashes cracked, 7 left
+
+Ne najdena gesla, ker niso bila del seznama:
+My$Strong&Pass2024
+Summer2024
+geslo123
+Geslo123
+Geslo123.
+GESLO123.
+M0j3g3sl0j3m0cn0.
+
+Ocena varnosti se z dolžino izboljšuje.
+Ocena varnosti se z dodajanjem posebnih znakov izboljšuje.
+"Passphrase" je boljše kot klasično geslo, ker je daljše in lahko vsebuje ločila - bolj komplicirano.
+Za vsakodnevno uporabo bi priporočila geslo z velikimi, malimi črkami, posebnimi znaki in številkami. Čim daljše.
