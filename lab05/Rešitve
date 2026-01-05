@@ -1,0 +1,38 @@
+SPAM mail:
+IP: 54.240.11.127
+Domena pošiljatelja se ne ujema z naslovom v “From”, kar je običajno pri storitvah za pošiljanje novic.
+Država: ZDA
+Znaki preusmeritev: ni jih
+Napake SPF/DKIM/DMARC: ni napak
+
+Phishing sporočilo:
+Od: Microsoft Azure Security no-reply@security-microsoft-alert.com Zadeva: NUJNO: Zaznan nepooblaščen dostop do vašega računa - [Ref ID: 982341]
+
+Spoštovani uporabnik,
+
+Naš varnostni sistem je zaznal sumljivo prijavo v vaš Microsoftov račun iz nove naprave na lokaciji: Moskva, Rusija (IP: 95.161.221.1).
+
+Zaradi vaše varnosti smo začasno omejili dostop do nekaterih funkcij vašega računa. Da preprečite trajno blokado in zavarujete svoje podatke, 
+morate takoj pregledati poročilo o prijavi in potrditi svojo identiteto.
+
+Navodila:
+
+Prenesite priloženo datoteko: Varnostno_Porocilo_ID982341.zip
+
+Odprite dokument in sledite korakom za verifikacijo.
+
+Če tega ne storite v roku 12 ur, bo vaš račun zaradi varnostnih protokolov trajno onemogočen.
+
+[GUMB: PRENESI POROČILO]
+
+Če ste to prijavo izvedli vi, lahko to sporočilo prezrete.
+
+Hvala, ker skrbite za varnost, Ekipa za Microsoftovo varnost
+
+Dodatno logotip microsofta in lepo urejen gumb.
+
+Refleksija:
+Zdi se mi da hitro opazim sumljivost e-poštnega sporočila. 
+Ne morem z zagotovostjo vsakega sporočila prepoznali kot nevarno sporočilo. brez headerja.
+Če ne pričakuješ maila, je mail sumljiv. Skoraj nikoli ni potrebno vnašati gesla. Če piše, da imaš samo 10 minut za prevzem nečesa, kar
+si zadel, to ni pravo sporočilo.
