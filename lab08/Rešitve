@@ -1,0 +1,19 @@
+Kako bi razložili razliko med nešifriranim (npr. SMTP brez TLS na portu 1025) in šifriranim sporočilom 
+(SMTP s STARTTLS na portu 587)? Katere podatke lahko napadalec vidi v prvem primeru in katere v drugem?
+Razlika je da sporočilo ni ali je šifrirano. Brez šifriranja se vidi vse podatke, s šifriranjem pa 
+se vidi samo, da je komunikacija potekala, ne moremo prebrati.
+
+Zakaj je preverjanje fingerprinta pri PGP za preprečitev man-in-the-middle napada?
+Ker lahko javni ključ, ki smo ga prejeli, pripada neki drugi osebi. Fingerprint povezuje
+ključ s pravo osebo. Napadalec lahko ponaredi ime pošiljatelja, e-poštni naslov in 
+videz spletne strani, ne more pa ustvariti lažnega ključa, ki bi imel popolnoma enak 
+fingerprint kot originalni ključ. 
+
+Kdaj bi uporabili PGP in kdaj Signal?
+PGP bi uporabili pri daljši in bolj obsežni komunikaciji(arhiviranje), 
+Signal pa pri hitri komunikaciji (vsakodnevni pogovori).
+
+Ali menite, da bi moralo biti end-to-end šifriranje privzeto v vseh komunikacijskih aplikacijah? 
+Utemeljite odgovor z vidika varnosti, zasebnosti in uporabniške izkušnje.
+Z vidika varnosti in zasebnosti da, z vidika uporabniške izkučnje pa ne (počasnejše delovanje). 
+Tako, da skupaj: če ne gre za občutljive podatke ne, če pa gre za občutljive podatke potem ja.
