@@ -1,3 +1,23 @@
+<img width="945" height="611" alt="image" src="https://github.com/user-attachments/assets/38b6c3ae-b280-4856-a1ca-3beaa0615761" />
+To mi ne dela. Čakala sem 15 minut in ni bilo nič.
+
+Posnetek zalosna lažne spletne strani:
+<img width="945" height="343" alt="image" src="https://github.com/user-attachments/assets/c2577fc4-fa03-4ff3-bdae-d52ee2b05708" />
+
+Posnetek zaslona terminala s zajetimi podatki:
+V terminalu nisem videla zajetih podatkov, videla sem jih z GET.
+<img width="945" height="389" alt="image" src="https://github.com/user-attachments/assets/5bf23a6f-658b-4eba-b49a-3a6ed3b327fa" />
+<img width="945" height="303" alt="image" src="https://github.com/user-attachments/assets/457f9a5a-75b1-4049-bc6c-967f598f18c9" />
+
+Ker sem spremenila metodo post v get bi žrtev lahko prepoznala, da gre za phishing po tem ko bi že oddala informacije.
+Žrtev bi lahko prepoznala da gre za phishing stran tudi po tem da ni https, ampak http ali po sumljivem URL.
+
+Katere značilnosti so značilne za phishing strani (npr. napačen URL): napačen url, http namesto https, nedelujoče povezave, slabše kakovosti slik,
+slovnične nepravilnosti, zahteve po podatkih, ki jih navadno ne potrebujemo za priajvo.
+Kako bi se zaščitili pred takšnim napadom: MFA, Passwordmanagers, previdnost ko naletimo na sumljive strani
+Moderne strani otežujejo phishing strani napade z https, varnostnimi certifikati, preverjanjem integritete naprave in preverjanjem lokacije.
+
+
 # Prepoznavanje in preprečevanje phishing napadov
 
 📅 **Trajanje: 2 uri**
