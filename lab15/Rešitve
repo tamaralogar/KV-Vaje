@@ -1,0 +1,10 @@
+
+Zakaj GPG ne zazna MITM napada samodejno: ker je gpg za šifriranje sporočil in se ne ukvarja s tem kdo je poslal ključ
+Kaj je fingerprint in zakaj je pomemben: je serija znakov, ki je unikatna vsakemu kljucu, pomemben je ker pomaga preveriti kdo je posiljatelj
+Zakaj e-pošta ni varen kanal za izmenjavo ključev: ker je epošta nezavarovan kanal in po tem kanalu lahko MITM prestreže sporočila
+Kako Web of Trust zmanjša tveganje MITM napada: zaradi podpisovanja ključev, digitalno podpišemo ključe katerim zaupamo s svojim zasebnim ključem.
+
+Razlika med:
+zaupanjem (trust): Zaupamo presoji drugih ljudi, ki so podpisali neke tretje ključe.
+podpisanim ključem (signed key): Preverimo ali je tuji ključ veljaven in ga sami podpišemo.
+ultimativnim zaupanjem (ultimate trust): najmočnejše zaupanje. Tako zaupamo lahko lastnim ključem.
