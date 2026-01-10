@@ -1,0 +1,129 @@
+Varnostna politika Univerze v Ljubljani
+
+Katere glavne dele vsebuje (cilji, področja, postopki)?
+Opisana je kibernetska varnost, ki velja za vse zaposlene in zunanje izvajalce.
+Opredeljene so ranljivosti, grožnje, opravljanje in priporočila.
+
+Kako so opredeljene odgovornosti zaposlenih?
+Individualna odgovornost: Vsak zaposleni je odgovoren za sredstva, ki jih uporablja 
+(službeni računalnik, dostopna gesla).
+Ravnanje s podatki: Zaposleni morajo klasificirati podatke (npr. javno, interno, 
+strogo zaupno) in z njimi ravnati odgovorno.
+Dolžnost poročanja: Vsak sum na varnostni incident (npr. sumljiv e-mail, izguba prenosnika) 
+morajo zaposleni takoj javiti pristojni službi.
+Izobraževanje: Zaposleni so se dolžni udeleževati usposabljanj o informacijski varnosti.
+
+Ali pokriva vse ključne grožnje?
+Ne pokriva omejitev uporabe osebnih naprav.
+
+Je napisana jasno in razumljivo za zaposlene?
+Napisano je v pravnem jeziku (mora biti), kar je težko berljivo za zaposlene.
+
+Kaj bi izboljšali?
+Bolj specifična navodila glede gesel (posodabljanje, kakšna mora biti).
+
+
+
+
+
+Oblikovanje lastne politike - spletna trgovina s 20 zaposlenimi:
+Informacijska varnostna politika: Spletne trgovine XY
+
+0. Opis podjetja
+Podjetje je spletna trgovina (prodaja in distribucija oblačil prek lastne spletne platforme).
+Število zaposlenih: 20
+Za namene varnostne politike so zaposleni razdeljeni v naslednje skupine:
+Vodstvo (2 osebi), IT in razvoj (3 osebe), Prodaja in marketing (6 oseb),
+Podpora strankam (3 osebe), Logistika in skladišče (6 oseb).
+
+1. Namen in cilji politike
+Namen te politike je zaščititi informacijsko premoženje podjetja, podatke o kupcih in omegočiti
+nemoteno delovanje spletne trgovine.
+Cilji: Preprečevanje nepooblaščenega dostopa do osebnih podatkov strank (skladnost z GDPR) in
+zagotavljanje dostopnosti spletne trgovine. Zmanjšanje tveganja za finančne goljufije in vdore.
+
+2. Področje uporabe
+Politika velja za vse zaposlene, zunanje sodelavce in študente. Nanaša se na: strojno opremo, 
+programsko opremo ter dostop do podatkovnih baz in administrativnih vmesnikov.
+
+3. Odgovornosti
+Vodstvo (Direktor, Operativni vodja): Zagotavljanje sredstev za varnostno opremo in licenciranje.
+Določitev odgovorne osebe za varnost,odobritev kritičnih dostopov in nadzor nad izvajanjem politike.
+IT in razvoj (Sistemski skrbnik, Razvijalci): Tehnična izvedba varnostnih ukrepov in zaščita 
+izvorne kode.Redno posodabljanje strežniške infrastrukture. Vzpostavitev in preverjanje varnostnih 
+kopij (backupa).
+Podpora strankam: Varovanje osebnih podatkov kupcev (GDPR). Preverjanje identitete stranke pred 
+razkritjem podatkov o naročilu. Prepoznavanje in poročanje o poskusih socialnega inženiringa 
+(ko nekdo kliče in se pretvarja, da je stranka).
+Prodaja in marketing: Varovanje dostopov do oglaševalskih računov in analitike. Upravljanje s 
+pravicami zunanjih agencij (odstranitev dostopa takoj po koncu sodelovanj). Obvezna uporaba 
+upravljalnika gesel za račune na socialnih omrežjih.
+Logistika in skladišče: Fizična varnost opreme in omejen dostop do digitalnih sistemov. Zaklepanje 
+terminalov v skladišču ob neprisotnosti. Preprečevanje nepooblaščenim osebam (npr. dostavljavcem), 
+da bi videli zaslone z osebnimi podatki. Uporaba unikatnih PIN kod za dostop do ročnih terminalov.
+Vsi zaposleni so dolžni upoštevati pravila, varovati svoje naprave in takoj poročati o sumljivih 
+dejavnostih.
+
+4. Dostop do sredstev (Access Control)
+Vodstvo: Poln dostop do finančnih podatkov in strateških načrtov. Vpogled v izvorno kodo, osebne
+podatke strank, skladiščne sisteme, oglaševanja in administracijo.
+IT in razvoj:  Poln dostop do strežnikov, varnostnih kopij in izvorne kode. Dostop do tehničnih
+vidikov administracije in skladiščnih sistemov.
+Prodaja in marketing: Poln dostop do socialnih omrežij in ostalih oglaševalskih računov ter 
+administrativnih storitev. Omejen dostop do podatkov o stankah.
+Podpora strankam: Poln dostop do osebnih podatkov strank in naročil iz administracije. Omejen
+dostop do zalog v skladiščnih sistemih.
+Logistika in skladišče: Poln dostop do skladiščnih sistemov (osnovnih podatkov o naročilih, zalogi).
+Dodeljevanje dostopov:
+Vsak zaposleni dobi lasten uporabniški račun. Dostope odobri vodstvo v pisni obliki.
+Dostop do notranjih sistemov od doma je dovoljen le prek šifrirane VPN povezave in obvezna uporaba 2FA.
+Ob prekinitvi delovnega razmerja se dostop do vseh sistemov prekliče na zadnji delovni dan zaposlenega.
+Vsake 3 mesece IT skrbnik izvede revizijo vseh aktivnih računov in odstrani tiste, ki niso več potrebni.
+
+5. Pravila za uporabo sistemov in gesel
+Gesla: Najmanj 12 znakov (kombinacija črk, številk in simbolov). Gesel ni dovoljeno deliti z ostalimi 
+osebami. Prepovedano je zapisovanje gesel na vidna mesta. Obvezna uporaba upravljalnika gesel.
+Obvezna dvofaktorska avtentikacija (2FA) za vse službene račune.
+Zaposleni morajo ob odhodu z delovnega mesta zakleniti zaslon. 
+
+6. Postopki ob incidentih
+V primeru izgube naprave, vdora v sistem ali prejema sumljive e-pošte (phishing) mora zaposleni
+o dogodku nemudoma obvesti IT skrbnika.
+IT skrbnik po potrebi onemogoči dostope in izolira okuženo napravo iz omrežja.
+Ugotovi se obseg škode in ali je prišlo do odtoka osebnih podatkov (v 72 urah poročanje 
+Informacijskemu pooblaščencu, če je potrebno).
+
+7. Varnostne kopije in posodabljanje
+Za to skrbi IT oddelek.
+Avtomatsko dnevno varnostno kopiranje baze trgovine na ločeno lokacijo (off-site). 
+Preverjanje delovanja kopij enkrat mesečno.
+Vse kritične varnostne posodobitve morajo biti nameščene v 1 tednu po izidu.
+
+8. Spremljanje skladnosti
+Enkrat letno se izvede notranji varnostni pregled.
+Vsakih 6 mesecev se izvede kratek sestanek ali test o varnostnih trendih (npr. prepoznavanje lažnih 
+sporočil).
+Kršitev te politike se obravnava kot kršitev delovnih obveznosti.
+
+
+
+Navodila za poročilo
+Povzemite analizo obstoječe politike: njene prednosti in slabosti.
+Varnostna politika Univerze v Ljubljani: Prednosti: celovitost, usklajenost s standardi, vključenost 
+vseh zaposlenih in jasna hierarhija odgovornosti. Slabosti: dolga, uradno zapisana (težko za branje).
+
+Predstavite ključne dele vaše varnostne politike.
+Ključni deli so: odgovornost - kdo je odgovoren za kateri del varnosti, dostop - kdo ima dostop do 
+katerih sredstev, upravljanje z gesli, postopek ob incidentu in udeleženost vseh zaposlenih.
+
+Kako bi jo komunicirali zaposlenim, da bi jo razumeli in upoštevali?
+Vsakemu bi dala za prebrati samo tisti del, ki se nanaša na njegovo delovno mesto. To bi jim dala 
+za prebrati znotraj delovnega časa in enkrat na pol leta bi imeli obnovitveni tečaj, kjer bi nekdo 
+na kratko predstavil varnostno politiko.
+
+Kako bi spremljali, ali se politika izvaja?
+Stimulacija phishing napadov in opazovanje ali bi jih zaposleni prijavili. Stimulacija klicev in
+izdajanje za stranko ter opazovanje odziva zaposlenih. Redni pol letni pregledi ali se upoštevajo
+navodila.
+
+
