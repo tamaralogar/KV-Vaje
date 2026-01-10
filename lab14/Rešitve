@@ -1,0 +1,47 @@
+  152  mkdir vaje14
+  153  cd
+  154  cd vaje14
+  155  clear
+  156  sudo apt update
+  157  sudo apt install gnupg
+  158  gpg --version
+  159  gpg --full-generate-kez
+  160  gpg --full-generate-key
+  161  gpg --full-generate-key\n
+  162  gpg --list-kezs
+  163  gpg --list-keys
+  164  gpg --full-generate-key
+
+
+──(kali㉿kali)-[~/vaje14]
+└─$ gpg --armor --export test2@gmail.com > tamara2_pubkey.asc
+                                                                                                                                               
+┌──(kali㉿kali)-[~/vaje14]
+└─$ ls
+tamara2_pubkey.asc  tamara_pubkey.asc
+                                                                                                                                               
+ Tu vmes se mi je ugasnalo. To je bilo naprej:
+  127  ls
+  128  echo "To: peer@example.com\nFrom: student@example.com\nDate: $(date)\nSecret message: Zaupno sporocilo" > message.txt
+  129  cat message.txt
+  130  gpg --encrypt --sign --armor --recipient test@example.com message.txt
+  131  gpg --encrypt --sign --armor --recipient test@gmail.com message.txt 
+  132  ls
+  133  cat message.txt.asc
+  134  gpg --decrypt message.txt.asc > decrypted_message.txt
+  135  cat decrypted_message.txt
+
+"Posnetek zaslona":
+┌──(kali㉿kali)-[~/vaje14]
+└─$ cat decrypted_message.txt
+To: peer@example.com
+From: student@example.com
+Date: Sat Jan 10 09:47:44 AM EST 2026
+Secret message: Zaupno sporocilo
+
+Kratki odgovori:
+Razlika med šifriranjem in podpisom: pri šifriranju šifriramo sporočilo, da ga ne more prebrati vsak,
+pri podpisu pa želimo zagotoviti, da prejemnik ve od koga je prišlo sporočilo.
+Vloga javnega in zasebnega ključa: javni ključ je za šifriranje, zasebni pa za podpisovanje in dešifriranje
+Kaj se zgodi ob spremembi šifrirane datoteke: podatki postanejo neberljivi
+                                 
