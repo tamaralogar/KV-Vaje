@@ -1,0 +1,19 @@
+Zakaj skrivnosti ne sodijo v izvorno kodo? 
+Ker izvorna koda ni namenjena temu. Če delimo kodo, lahko te skrivnosti vidijo vsi, s katerimi delimo.
+Prav tako npr. na githubu tudi če kasneje zbrišemo informacije/skrivnosti te ostenejo vidne v zgodovini.
+
+Kakšna je razlika med simetričnim in asimetričnim šifriranjem skrivnosti?
+Simetrično šifriranje je hitrejše, uporablja en ključ za šifriranje in dešifriranje, 
+problem je pri prenašanju ključa. Asimetrično šifriranje je počasnejše in uporablja 
+javni in zasebni ključ. Javni ključ je lahko vsem dostopen in zato ni toliko težav pri prenašanju.
+
+Kaj se zgodi, če izgubimo zasebni ključ?
+Izgubimo tudi šifrirane podatke. Prav tako ne moremo dokazati, kdo je poslal podatke.
+Če je ključ nekdo ukradel je to potem še večji problem, ker ima potem ta osbe dostop do 
+zaupnih podatkov.
+
+Kako bi to rešili v večjem podjetju?
+Skrivnosti se shranijo v centralnem sefu. Aplikacija ob zagonu zaprosi sef za 
+geslo in ga shrani v spominu (ne na disku).
+Avtomatska posodabljanja ključev: Vsakih nekaj mesecev se samodejno zamenja
+gesla in ključe, tako da če pride do kraje, ukradeni ključ postane neuporaben.
