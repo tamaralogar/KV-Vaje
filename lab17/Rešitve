@@ -1,0 +1,29 @@
+Zastarela programska oprema (OT sistemi)	
+Srednja / Visoka	
+Gre za industrijske krmilnike ali terminale v proizvodnji, ki tečejo na sistemih, 
+ki jih ni več mogoče posodobiti. Posledica: Napadalec lahko izkoristi znane varnostne 
+luknje za ustavitev proizvodne linije ali poškodbo strojne opreme.
+
+Neprimerna zaščita (Slaba segmentacija)	
+Srednja	
+Pomanjkanje stroge ločitve med pisarniškim (IT) in proizvodnim (OT) omrežjem. 
+Posledica: Če se okuži računalnik v administraciji (npr. preko e-maila), se 
+lahko izsiljevalsko programje (Ransomware) razširi neposredno na robote in AGV vozila.
+
+Šibka avtentikacija za zunanje dostope	
+Srednja	
+Zunanji vzdrževalci strojev dostopajo do sistema brez večfaktorske avtentikacije (MFA).
+Posledica: Če napadalec pridobi geslo enega zunanjega partnerja, pridobi neoviran dostop 
+do jedra proizvodnega procesa.
+
+Katere ranljivosti iz OWASP Top 10 ste prepoznali:
+-Zastarela programska oprema (OT sistemi)	
+-Neprimerna zaščita (Slaba segmentacija)	
+-Šibka avtentikacija za zunanje dostope	
+
+Priporočeni ukrepi za izboljšanje varnosti:
+- posodabljanje programske opreme
+- dvostopenjska avtentifikacija
+- Izobraževanja zaposlenih
+
+
